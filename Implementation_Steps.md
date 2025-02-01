@@ -80,6 +80,7 @@ aws s3 cp s3://3tierproject-avinash/application-code/app-tier/ app-tier --recurs
 cd ~/app-tier
 npm install
 pm2 start index.js
+pm2 status
 
 pm2 list
 pm2 logs
